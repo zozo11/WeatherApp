@@ -48,6 +48,8 @@ ul li a:hover{
 .aboutBd span p{
     padding: 0 20px;
     margin: 5px;
+    line-height: 2.5;
+    font-size: 16px!important;
 }
 .aboutBd .img{
     width: 400px;

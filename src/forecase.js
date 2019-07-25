@@ -13,7 +13,7 @@ const forecase = (lag, long, callback) => {
             const precipType = body.daily.data[0].precipType;
             const summary = body.daily.data[0].summary;
             const temperature = body.currently.temperature;
-            callback(undefined, timezone + ' area have the ' + precipIntensity + '% chance ' + precipType + ' and the temperature is ' + temperature + ' '+ summary);
+            callback(undefined, summary + ' ' + precipIntensity + '% chance ' + precipType + ' and the temperature is ' + temperature);
         }
     });
 }
