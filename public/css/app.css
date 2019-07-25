@@ -1,0 +1,75 @@
+body{
+    margin: 0 auto;
+    width: 1200;
+    font-size: 14px;
+    color: dimgrey;
+    font-family: sans-serif;
+    padding: 15px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.main-content{
+    flex-grow: 1;
+}
+p{
+    padding: 14px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(56, 56, 56);
+}
+ul.header{
+    font-size: 18px;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px!important;
+}
+ul li{
+    padding: 5px 0px;
+    margin: 5px;
+    display: inline-block;
+}
+ul li a{
+    text-decoration-line: none;
+    color: rgb(136, 136, 136);
+}
+ul li a:hover{
+    text-decoration-line: none;
+    color: rgb(232, 156, 7);
+}
+.aboutBd{
+    display: flex;
+    margin: 10px;
+}
+.aboutBd span p{
+    padding: 0 20px;
+    margin: 5px;
+}
+.aboutBd .img{
+    width: 400px;
+    height: auto;
+}
+footer{
+    border-top: 1px solid rgb(230, 230, 230);
+    padding:20px 5px;
+}
+.searchForm{
+    padding: 15px;
+}
+.searchForm button{
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    background: #ffffff;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.searchForm input{
+    padding: 10px;
+    border: 1px solid rgb(236, 236, 236);
+    background: #ffffff;
+}
