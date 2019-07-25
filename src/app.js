@@ -4,6 +4,7 @@ const app = express();
 const hbs = require('hbs');
 const geoadr = require('./geocode.js');
 const forecase = require('./forecase.js');
+const port = process.env.PORT || 3000;
 
 //define the path for Express js config
 const publicSrc = path.join(__dirname, '../public');
@@ -85,6 +86,6 @@ app.get('*', (req, res) => {
         errorMasseage: 'Page Not Found!!'
     })
 });
-app.listen(3000, () => {
-    console.log('3000 is listen')
+app.listen(port, () => {
+    console.log( port + ' is listen')
 })  

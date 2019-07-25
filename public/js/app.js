@@ -10,7 +10,7 @@ weatherForm.addEventListener('submit', (e)=>{
     msg1.textContent = 'Locatin Loading ...';
     msg2.textContent = '';
     msg3.textContent = '';
-    const lcurl = 'http://localhost:3000/weather?address=' + encodeURI(location);
+    const lcurl = '/weather?address=' + encodeURI(location);
     const located = fetch(lcurl).then((response)=>{
         response.json().then((data)=>{
             if(data.error){
